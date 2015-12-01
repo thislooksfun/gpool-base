@@ -1,7 +1,7 @@
 {
   "name": "gpool-base",
   "main": "./lib/main",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Allows git-like visuals for gpool projects",
   "author": "thislooksfun",
   "keywords": [
