@@ -1,0 +1,30 @@
+{
+  "name": "gpool-base",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Allows git-like visuals for gpool projects",
+  "author": "thislooksfun",
+  "keywords": [
+    "gpool"
+  ],
+  "repository": "https://github.com/thislooksfun/gpool-base",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "providedServices": {
+    "gpool-base": {
+      "description": "git-repo interaction",
+      "versions": {
+        "1.0.0": "provideGpoolServiceV1"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3",
+    "atom-utils": "^0.7.4",
+    "mixto": "^1.0.0",
+    "pathwatcher": "^6.3.0",
+    "xml2js": "^0.4.15"
+  }
+}
