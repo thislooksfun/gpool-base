@@ -1,5 +1,4 @@
 {CompositeDisposable} = require 'atom'
-{Parser}              = require 'xml2js'
 updater               = require './statusUpdater'
 {Directory}           = require 'pathwatcher'
 pathMod               = require 'path'

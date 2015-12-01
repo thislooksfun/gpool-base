@@ -24,7 +24,6 @@
     "atom-space-pen-views": "^2.0.3",
     "atom-utils": "^0.7.4",
     "mixto": "^1.0.0",
-    "pathwatcher": "^6.3.0",
-    "xml2js": "^0.4.15"
+    "pathwatcher": "^6.3.0"
   }
 }
