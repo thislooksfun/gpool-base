@@ -59,6 +59,8 @@ class RepoHost
   
   # Get the repository associated with this path
   getRepoForPath: (path) ->
+    return null unless path?  # If no path was given, return null
+    
     for dir, repo of @_repos                 # For each item in the '@_repos' assoc array...
       return repo if path.indexOf(dir) > -1  #   Return if the path matches
       
